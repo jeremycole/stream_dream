@@ -14,22 +14,21 @@ We would like to be able to live stream all competitions in Northern Nevada and 
 
 ### Requirements
 
-* Ease of setup and teardown – we have a limited amount of setup time, and every venue offers new challenges
-* Wired cameras – since FTC robots use WiFi, avoid heavy use of WiFi frequencies
-* Minimal wiring requirements
-* Video of each competition field – with a reasonable angle for viewing the competition
-* Audio of the announcer
+* Ease of setup and teardown – we have a limited amount of setup time, and every venue offers new challenges.
+* Wired cameras – since FTC robots use WiFi, avoid heavy use of WiFi frequencies, especially high-bandwidth streams from multiple cameras.
+* Video of each competition field – with a reasonable angle for viewing the competition.
+* Audio of the announcer – it's very hard to follow the matches from video alone.
 
 ### Nice to have
 
-* High entertainment value – robotics events span multiple hours, so the more entertaining and engaging to watch, the better
+* High entertainment value – robotics events span multiple hours, so the more entertaining and engaging to watch, the better.
 * High fidelity for filler content – for example for playing explanatory videos on the stream.
-* Video of the venue other than the fields – to allow the viewers to feel more involved and engaged, it is nice to have many angles showing what's going on
+* Video of the venue other than the fields – to allow the viewers to feel more involved and engaged, it is nice to have many angles showing what's going on.
 * Audio of the attendees – it can be very nice, and more fun, to hear the cheering/clapping, oohs and ahhs, etc.
 
 ### Non-goals
 
-* Perfect video. 
+* Perfect video.
 * Video with extremely high resolution – typically the venues where events are held have limited Internet bandwidth anyway, so it is not necessary or useful to have e.g. 4K streaming capability.
 
 ## Stream Dream for FIRST Tech Challenge

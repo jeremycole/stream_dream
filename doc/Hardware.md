@@ -18,11 +18,11 @@ The typical interconnections of the hardware in the Stream Dream Rig looks like 
 
 ## Flight case
 
-The "flight case" style enclosure holds everything together. It has a few rack mount slots (measured in rack units, RUs) for equipment stacked vertically, and some rack space at an angle on top, designed for the installation of an audio mixer.
+The "flight case" style enclosure holds everything together. It has a few rack mount slots (measured in rack units, "RUs") for equipment stacked vertically, and some rack space at an angle on top, designed for the installation of an audio mixer.
 
 ## Battery backup
 
-The rig includes a small UPS in order to allow the live stream to survive short power interruptions such as the extension cord being accidentally unplugged or to reroute or reconnect it. The provided UPS is capable of powering the rig (not including the monitor) for about 20 minutes. 
+The rig includes a small UPS in order to allow the live stream to survive short power interruptions such as the extension cord being accidentally unplugged or to reroute or reconnect power. The provided UPS is capable of powering the rig (not including the monitor) for about 20 minutes. 
 
 ## Computer
 
@@ -61,8 +61,8 @@ The game audio cues should be patched from the computer displaying the main scor
 
 #### Ambient audience microphones
 
-The announcers typically are carrying their microphones around and turning them on and off constantly, and during some parts of the event both microphones may be off. In order to provide viewers are more consistent and interesting experience, one or more microphones is used to capture ambient sounds of audience and venue. This typically captures clapping, cheering, etc. A wired or wireless microphone may be placed anywhere in the venue, typically near the audience. 
+The announcers typically are carrying their microphones around and turning them on and off constantly, and during some parts of the event both microphones may be off. In order to provide viewers a more consistent and interesting experience, one or more microphones is used to capture ambient sounds of audience and venue. This typically captures clapping, cheering, etc. A wired or wireless microphone may be placed anywhere in the venue, typically near the audience. 
 
 #### What about music?
 
-Any music played in the venue _must not_ be fed into the live stream, otherwise live streaming providers such as Twitch are forced to mute the audio of the stream due to copyright concerns. Music may be played using the same PA system, or a separate one, but care should be taken to avoid recording it in high fidelity and especially patching it directly into the live stream audio.
+Any music played in the venue _must not_ be fed into the live stream, otherwise live streaming providers such as Twitch are forced to mute the audio of the stream due to copyright concerns. Music may be played using the same PA system (using an additional input), or a separate one. Care should be taken to avoid capturing the music in high fidelity and especially patching it directly into the live stream audio.
