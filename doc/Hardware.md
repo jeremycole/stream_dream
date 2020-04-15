@@ -18,42 +18,49 @@ The typical interconnections of the hardware in the Stream Dream Rig looks like 
 
 ## Flight case
 
-The "flight case" style enclosure holds everything together. It has a few rack mount slots (measured in rack units, "RUs") for equipment stacked vertically, and some rack space at an angle on top, designed for the installation of an audio mixer.
+The "flight case" style enclosure ([Odyssey FR1004](https://www.odysseygear.com/product/fr1004/combo-rack-10u-top-slanted-4u-bottom-vertical/)) holds everything together. It has a few rack mount slots (measured in rack units, "RUs") for equipment stacked vertically, and some rack space at an angle on top, designed for the installation of an audio mixer.
 
 ## Battery backup
 
-The rig includes a small UPS in order to allow the live stream to survive short power interruptions such as the extension cord being accidentally unplugged or to reroute or reconnect power. The provided UPS is capable of powering the rig (not including the monitor) for about 20 minutes. 
+The rig includes a small UPS ([CyberPower OR500LCDRM1U](https://www.cyberpowersystems.com/product/ups/smart-app-lcd/or500lcdrm1u/)) in order to allow the live stream to survive short power interruptions such as the extension cord being accidentally unplugged or to reroute or reconnect power. The provided UPS is capable of powering the rig (not including the monitor) for about 20 minutes. 
 
 ## Computer
 
-The computer is the heart of the rig. It's nothing crazy spec-wise, but has a good CPU with many cores, a decent amount of memory, and a fast SSD for storage. Additionally, it has wired Gigabit Ethernet ports, and two WiFi adapters (one M.2 internal card, and one USB).
+The computer (based on a [Shuttle XPC DH370](http://global.shuttle.com/products/productsSpec?productId=2343)) is the heart of the rig. It's nothing crazy spec-wise, but has a good CPU with many cores, a decent amount of memory, and a fast SSD for storage. Additionally, it has wired Gigabit Ethernet ports, and two Wi-Fi adapters (one M.2 internal card, and one USB).
 
 A compact 22-inch touchscreen monitor is provided, as well as a wireless keyboard and mouse.
 
 ## Network switch
 
-In order to connect the computer to all the cameras, a PoE switch is installed in the cabinet, with plenty of ports for as many cameras and other equipment that needs a network connection to the computer.
+In order to connect the computer to all the cameras, a PoE switch ([Netgear GS116PP](https://www.netgear.com/support/product/GS116PP.aspx)) is installed in the cabinet, with plenty of ports for as many cameras and other equipment that needs a network connection to the computer.
 
 #### Usage of Power over Ethernet
 
 In order to run for an entire day of video streaming, typical cameras (camcorders, etc.) would need to use a "power brick" adapters, and they would usually output their video using HDMI. This would mean running extension cords to power them, and using long (out of spec) and very expensive HDMI cables. These were identified as major problems early in the design of this streaming system. One of the key designs of the hardware chosen for the Stream Dream Rig is to use network-based IP cameras powered by PoE, so that they can be powered from and return their video using a single cable – which is easy to terminate on-site.
 
-#### Why not use WiFi cameras?
+## Cameras
 
-There are many IP cameras available that use WiFi, but they were not considered for a few reasons:
+We use several power-over-Ethernet IP cameras ([Ubiquiti UniFi UVC G3 Flex](https://unifi-protect.ui.com/g3-flex)) for video. These are technically security cameras but the form factor and specifications work quite well for this purpose.
+
+#### Why not use Wi-Fi cameras?
+
+There are many IP cameras available that use Wi-Fi, but they were not considered for a few reasons:
+
 * They would still need to be powered, so some cabling needs to exist.
-* The FIRST Tech Challenge robots use WiFi (typically 2.4 GHz WiFi Direct), so it was necessary to avoid saturating available WiFi bandwidth to avoid causing problems for the robots themselves.
-* Aside from the robots' wireless networks, competitions are typically run in schools or other facilities with full-coverage WiFi, further saturating the available WiFi bandwidth.
+* The FIRST Tech Challenge robots use Wi-Fi (typically 2.4 GHz Wi-Fi Direct), so it was necessary to avoid saturating available Wi-Fi bandwidth to avoid causing problems for the robots themselves.
+* Aside from the robots' wireless networks, competitions are typically held in schools or other facilities with full-coverage Wi-Fi, further saturating the available Wi-Fi bandwidth.
 
 ## Audio mixer and microphones
 
 Although video is the most obvious requirement of a video stream, audio is a key part of streaming: without audio, a video stream is not that fun to watch. With bad audio, a stream can be downright painful to watch. In addition to greatly improving the live stream experience for viewers, good audio also makes the captured video much more useful for ongoing usage after the event, such as publishing the videos on YouTube.
 
-In order to capture audio well, we need all important audio to go through *_our_* audio mixer, so that it can be output to the stream as well as amplified in the venue using provided audio amplification equipment 
+#### Audio Mixer
+
+An audio mixer ([Behringer Xenyx 1204USB](https://www.behringer.com/Categories/Behringer/Mixers/Analog/1204USB/p/P0794)) holds a central place in the Stream Dream rig due to its size, and the need to access its controls. In order to capture audio well, we need all important audio to go through *_our_* audio mixer, so that it can be output to the stream as well as amplified in the venue using provided audio amplification equipment.
 
 #### Wireless microphones and receivers for the announcers
 
-The Stream Dream Rig provides two Shure SM58 handheld wireless microphones, and the flight case includes the Shure BLX4R rack-mounted receivers (with remote-mounted antennas) for them.
+The Stream Dream Rig provides two handheld wireless microphones ([Shure SM58](https://www.shure.com/en-US/products/microphones/sm58)), and the flight case includes the rack-mounted receivers ([Shure BLX4R](https://www.shure.com/en-US/products/wireless-systems/blx_wireless/blx4r)) with remote-mounted antennas for them.
 
 #### Audio cues patched from the scorekeeper
 
