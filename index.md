@@ -2,7 +2,7 @@
 
 Live streaming and match video production for FIRST Tech Challenge robotics competitions.
 
-Check out the [Hardware](doc/Hardware.md) and [Software](doc/Software.md] for the Stream Dream.
+Check out the [Hardware](doc/Hardware.md) and [Software](doc/Software.md) for the Stream Dream.
 
 ## Background
 
